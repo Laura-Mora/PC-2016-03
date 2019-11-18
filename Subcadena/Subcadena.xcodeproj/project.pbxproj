@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02CCC8531D71F59800D50AFF /* mainsubcadena.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02CCC8521D71F59800D50AFF /* mainsubcadena.cpp */; };
+		02CCC85B1D71F5B900D50AFF /* Funciones subcadena.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02CCC8591D71F5B900D50AFF /* Funciones subcadena.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		02CCC84D1D71F59800D50AFF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02CCC84F1D71F59800D50AFF /* Subcadena */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Subcadena; sourceTree = BUILT_PRODUCTS_DIR; };
+		02CCC8521D71F59800D50AFF /* mainsubcadena.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mainsubcadena.cpp; sourceTree = "<group>"; };
+		02CCC8591D71F5B900D50AFF /* Funciones subcadena.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Funciones subcadena.cpp"; sourceTree = "<group>"; };
+		02CCC85A1D71F5B900D50AFF /* Funciones subcadena.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "Funciones subcadena.hpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02CCC84C1D71F59800D50AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02CCC8461D71F59800D50AFF = {
+			isa = PBXGroup;
+			children = (
+				02CCC8511D71F59800D50AFF /* Subcadena */,
+				02CCC8501D71F59800D50AFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02CCC8501D71F59800D50AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02CCC84F1D71F59800D50AFF /* Subcadena */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02CCC8511D71F59800D50AFF /* Subcadena */ = {
+			isa = PBXGroup;
+			children = (
+				02CCC8521D71F59800D50AFF /* mainsubcadena.cpp */,
+				02CCC8591D71F5B900D50AFF /* Funciones subcadena.cpp */,
+				02CCC85A1D71F5B900D50AFF /* Funciones subcadena.hpp */,
+			);
+			path = Subcadena;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02CCC84E1D71F59800D50AFF /* Subcadena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02CCC8561D71F59800D50AFF /* Build configuration list for PBXNativeTarget "Subcadena" */;
+			buildPhases = (
+				02CCC84B1D71F59800D50AFF /* Sources */,
+				02CCC84C1D71F59800D50AFF /* Frameworks */,
+				02CCC84D1D71F59800D50AFF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Subcadena;
+			productName = Subcadena;
+			productReference = 02CCC84F1D71F59800D50AFF /* Subcadena */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02CCC8471D71F59800D50AFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Laura Juliana Mora";
+				TargetAttributes = {
+					02CCC84E1D71F59800D50AFF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 02CCC84A1D71F59800D50AFF /* Build configuration list for PBXProject "Subcadena" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02CCC8461D71F59800D50AFF;
+			productRefGroup = 02CCC8501D71F59800D50AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02CCC84E1D71F59800D50AFF /* Subcadena */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02CCC84B1D71F59800D50AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CCC85B1D71F5B900D50AFF /* Funciones subcadena.cpp in Sources */,
+				02CCC8531D71F59800D50AFF /* mainsubcadena.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02CCC8541D71F59800D50AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		02CCC8551D71F59800D50AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		02CCC8571D71F59800D50AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02CCC8581D71F59800D50AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02CCC84A1D71F59800D50AFF /* Build configuration list for PBXProject "Subcadena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CCC8541D71F59800D50AFF /* Debug */,
+				02CCC8551D71F59800D50AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02CCC8561D71F59800D50AFF /* Build configuration list for PBXNativeTarget "Subcadena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CCC8571D71F59800D50AFF /* Debug */,
+				02CCC8581D71F59800D50AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02CCC8471D71F59800D50AFF /* Project object */;
+}

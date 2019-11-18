@@ -1,0 +1,1 @@
+Bogota <fecha de la remisi—n>Cliente <nombre del cliente>NIT: <identificaci—n tributaria>Direccion de Envio <direcci—n>Codigo articulo Articulo Presentacion Cantidad Valor IVA Valor Total

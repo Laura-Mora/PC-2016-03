@@ -1,0 +1,4 @@
+arroz,800;500gr,2000,300;300gr,1500,500;
+pollo,500;pechuga,2000,500;
+albahaca,2200;grande,700,700;minion,300,1500;
+papa,300;criolla,2500,300;
