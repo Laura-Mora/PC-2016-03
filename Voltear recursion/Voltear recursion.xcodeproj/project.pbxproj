@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F525CE1D7BB06F009C59B4 /* mainp3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02F525CD1D7BB06F009C59B4 /* mainp3.cpp */; };
+		02F525D61D7BB10C009C59B4 /* FuncionesP3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02F525D41D7BB10C009C59B4 /* FuncionesP3.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		02F525C81D7BB06F009C59B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02F525CA1D7BB06F009C59B4 /* Voltear recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Voltear recursion"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F525CD1D7BB06F009C59B4 /* mainp3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mainp3.cpp; sourceTree = "<group>"; };
+		02F525D41D7BB10C009C59B4 /* FuncionesP3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FuncionesP3.cpp; sourceTree = "<group>"; };
+		02F525D51D7BB10C009C59B4 /* FuncionesP3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FuncionesP3.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02F525C71D7BB06F009C59B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02F525C11D7BB06F009C59B4 = {
+			isa = PBXGroup;
+			children = (
+				02F525CC1D7BB06F009C59B4 /* Voltear recursion */,
+				02F525CB1D7BB06F009C59B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02F525CB1D7BB06F009C59B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02F525CA1D7BB06F009C59B4 /* Voltear recursion */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02F525CC1D7BB06F009C59B4 /* Voltear recursion */ = {
+			isa = PBXGroup;
+			children = (
+				02F525CD1D7BB06F009C59B4 /* mainp3.cpp */,
+				02F525D41D7BB10C009C59B4 /* FuncionesP3.cpp */,
+				02F525D51D7BB10C009C59B4 /* FuncionesP3.hpp */,
+			);
+			path = "Voltear recursion";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02F525C91D7BB06F009C59B4 /* Voltear recursion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F525D11D7BB06F009C59B4 /* Build configuration list for PBXNativeTarget "Voltear recursion" */;
+			buildPhases = (
+				02F525C61D7BB06F009C59B4 /* Sources */,
+				02F525C71D7BB06F009C59B4 /* Frameworks */,
+				02F525C81D7BB06F009C59B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Voltear recursion";
+			productName = "Voltear recursion";
+			productReference = 02F525CA1D7BB06F009C59B4 /* Voltear recursion */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02F525C21D7BB06F009C59B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Laura Juliana Mora";
+				TargetAttributes = {
+					02F525C91D7BB06F009C59B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 02F525C51D7BB06F009C59B4 /* Build configuration list for PBXProject "Voltear recursion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02F525C11D7BB06F009C59B4;
+			productRefGroup = 02F525CB1D7BB06F009C59B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02F525C91D7BB06F009C59B4 /* Voltear recursion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02F525C61D7BB06F009C59B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F525CE1D7BB06F009C59B4 /* mainp3.cpp in Sources */,
+				02F525D61D7BB10C009C59B4 /* FuncionesP3.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02F525CF1D7BB06F009C59B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		02F525D01D7BB06F009C59B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		02F525D21D7BB06F009C59B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02F525D31D7BB06F009C59B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02F525C51D7BB06F009C59B4 /* Build configuration list for PBXProject "Voltear recursion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F525CF1D7BB06F009C59B4 /* Debug */,
+				02F525D01D7BB06F009C59B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02F525D11D7BB06F009C59B4 /* Build configuration list for PBXNativeTarget "Voltear recursion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F525D21D7BB06F009C59B4 /* Debug */,
+				02F525D31D7BB06F009C59B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02F525C21D7BB06F009C59B4 /* Project object */;
+}
